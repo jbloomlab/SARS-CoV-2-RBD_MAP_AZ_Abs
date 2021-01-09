@@ -1,7 +1,7 @@
-# Mutational antigenic profiling of SARS-CoV-2 RBD
-Analysis of mutational antigenic profiling of barcoded codon variants of SARS-CoV-2 RBD.
+# Mutational antigenic profiling of SARS-CoV-2 RBD against COV2-2196, COV2-2130, and antibody mixture
 
-Study and analysis by Allie Greaney, Tyler Starr, [Jesse Bloom](https://research.fhcrc.org/bloom/en.html), and co-authors.
+Experiments and analysis by Allie Greaney, Tyler Starr, and [Jesse Bloom](https://research.fhcrc.org/bloom/en.html), in support of a structural study by the [Crowe Lab](https://www.vumc.org/crowe-lab/welcome).
+These experiments are described in this pre-print (**add link once posted**).
 
 ## Summary of workflow and results
 For a summary of the workflow and links to key results files, [click here](results/summary/summary.md).
@@ -107,9 +107,6 @@ The last three commands can be done by the following commands:
     conda env create -f environment_unpinned.yml
     conda activate SARS-CoV-2-RBD_MAP
     conda env export > environment.yml
-
-## Creating "subset" repos and uploading data to the SRA
-Currently this repo contains analyses of many antibodies and sera, and should remain public since collaborators do not want all of these data to be public.
 
 For papers, you can make a public "subset" repo by following the instructions in [./subset_data/](subset_data).
 After making a subset repo, you can upload sequencing data to the Sequence Read Archive (SRA) following the instructions in [./SRA_upload/](SRA_upload).
