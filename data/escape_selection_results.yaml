@@ -27,6 +27,9 @@ Crowe_selections:
       mutations:
         K444R: 6
         K444E: 2
+      label_mutations:
+        - K444R
+        - K444E
     2196+2130_400:
       display_name: COV2-2196 + COV2-2130
       replicates_total: 104
