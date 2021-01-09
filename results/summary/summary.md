@@ -44,6 +44,8 @@ Here is the Markdown output of each notebook in the workflow:
 
 14. [Escape from binding by homologs](homolog_escape.md).
 
-15. [Make supplementary data files](make_supp_data.md),
+15. [Analyze viral escape selections](escape_selections.md).
+
+16. [Make supplementary data files](make_supp_data.md),
     which are [here](../supp_data). These include
     `dms-view` input files.

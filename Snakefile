@@ -83,6 +83,7 @@ rule make_summary:
         gisaid_mutation_counts=config['gisaid_mutation_counts'],
         natural_mutations=nb_markdown('natural_mutations.ipynb'),
         homolog_escape=nb_markdown('homolog_escape.ipynb'),
+        escape_selections=nb_markdown('escape_selections.ipynb'),
         make_supp_data=nb_markdown('make_supp_data.ipynb'),
         structural_contacts='results/summary/annotate_structural_contacts.md',
     output:
@@ -129,7 +130,7 @@ rule make_summary:
             7. Plot [escape profiles]({path(input.escape_profiles)}).
 
             10. Map escape profiles to ``*.pdb`` files using [this notebook]({path(input.output_pdbs)})
-            
+
             11. Output a list of RBD structural contacts for each antibody with a high-resolution structure using [this notebook]({path(input.structural_contacts)})
 
             12. [Count mutations in GISAID RBD sequences]({path(input.gisaid_rbd_mutations)})
@@ -139,7 +140,9 @@ rule make_summary:
 
             14. [Escape from binding by homologs]({path(input.homolog_escape)}).
 
-            15. [Make supplementary data files]({path(input.make_supp_data)}),
+            15. [Analyze viral escape selections]({path(input.escape_selections)}).
+
+            16. [Make supplementary data files]({path(input.make_supp_data)}),
                 which are [here]({path(config['supp_data_dir'])}). These include
                 `dms-view` input files.
 
