@@ -4,3 +4,30 @@
 #   - site_escape: total escape at site
 #   - max_at_site_escape: max escape of any mutation at site
 #   - mean_at_site_escape: mean escape of all mutations with measurements at site
+
+Crowe_selections:
+  spike_sequence: ./data/Whelan-VSV-SARS-CoV-2-Spike.gb
+  min_size: 0.75  # smallest point size (e.g., unobserved mutations)
+  max_size: 1  # point size proportional to n observations with this max
+  size_scale: 0.25  # scale all point sizes by this much
+  # colors, shapes, alphas for each category of mutation:
+  shapes: ['o', 'x', 'D']
+  colors: ['tan', 'gray', 'red']
+  alphas: [0.4, 0.4, 0.75]
+  facet_scales: null  # free x-axis in faceting
+  antibodies:
+    COV2-2196_400:  # selection column in raw data
+      display_name: COV2-2196
+      replicates_total: 88
+      replicates_escape: 0
+    COV2-2130_400:
+      display_name: COV2-2130
+      replicates_total: 20
+      replicates_escape: 8
+      mutations:
+        K444R: 6
+        K444E: 2
+    2196+2130_400:
+      display_name: COV2-2196 + COV2-2130
+      replicates_total: 104
+      replicates_escape: 0
