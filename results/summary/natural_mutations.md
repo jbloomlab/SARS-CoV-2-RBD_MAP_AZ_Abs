@@ -547,8 +547,8 @@ for name, specs in escape_profiles_config.items():
 ```
 
     
-    Analyzing natural mutations for 2196_2130_forAZ
-    Writing counts of mutations at sites of strong escape to results/GISAID_mutations/2196_2130_forAZ_mutation_counts.csv. First few lines:
+    Analyzing natural mutations for AZ_cocktail
+    Writing counts of mutations at sites of strong escape to results/GISAID_mutations/AZ_cocktail_mutation_counts.csv. First few lines:
 
 
 
@@ -587,6 +587,22 @@ for name, specs in escape_profiles_config.items():
       <td>G</td>
       <td>46</td>
       <td>G476S (42), G476A (3), G476F (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2196 + COV2-2130</td>
+      <td>default</td>
+      <td>476</td>
+      <td>G</td>
+      <td>46</td>
+      <td>G476S (42), G476A (3), G476F (1)</td>
+    </tr>
+    <tr>
+      <td>COV2-2196 + COV2-2130</td>
+      <td>default</td>
+      <td>486</td>
+      <td>F</td>
+      <td>35</td>
+      <td>F486L (34), F486I (1)</td>
     </tr>
     <tr>
       <td>COV2-2196</td>
@@ -628,27 +644,11 @@ for name, specs in escape_profiles_config.items():
       <td>17</td>
       <td>V445A (11), V445I (3), V445F (3)</td>
     </tr>
-    <tr>
-      <td>COV2-2130</td>
-      <td>default</td>
-      <td>450</td>
-      <td>N</td>
-      <td>11</td>
-      <td>N450K (8), N450D (3)</td>
-    </tr>
-    <tr>
-      <td>COV2-2196</td>
-      <td>default</td>
-      <td>487</td>
-      <td>N</td>
-      <td>3</td>
-      <td>N487K (1), N487H (1), N487I (1)</td>
-    </tr>
   </tbody>
 </table>
 
 
-    Plotting which antibodies / sera are escaped by mutations at all sites of escape with at least 5 mutation counts and saving to results/GISAID_mutations/2196_2130_forAZ_mutation_counts.pdf.
+    Plotting which antibodies / sera are escaped by mutations at all sites of escape with at least 5 mutation counts and saving to results/GISAID_mutations/AZ_cocktail_mutation_counts.pdf.
 
 
 
@@ -901,8 +901,8 @@ for name, specs in escape_profiles_config.items():
 ```
 
     
-    Analyzing natural mutations for 2196_2130_forAZ
-    Plotting each condition and saving to results/GISAID_mutations/2196_2130_forAZ_escape_vs_freq_by-condition.pdf
+    Analyzing natural mutations for AZ_cocktail
+    Plotting each condition and saving to results/GISAID_mutations/AZ_cocktail_escape_vs_freq_by-condition.pdf
 
 
 
@@ -911,7 +911,7 @@ for name, specs in escape_profiles_config.items():
     
 
 
-    Plotting average across conditions and saving to results/GISAID_mutations/2196_2130_forAZ_escape_vs_freq_average.pdf
+    Plotting average across conditions and saving to results/GISAID_mutations/AZ_cocktail_escape_vs_freq_average.pdf
 
 
 

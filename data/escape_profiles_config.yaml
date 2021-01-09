@@ -32,24 +32,6 @@
 #   dmslogo_draw_logo_kwargs -> any keyword arguments to dmslogo.draw_logo
 #   dmslogo_draw_line_kwargs -> any keyword arguments to dmslogo.draw_line
 
-2196_2130_forAZ:  # name of plot
-  conditions:  # antibodies / sera to show and names to use for them
-    COV2-2196_400: COV2-2196
-    COV2-2130_400: COV2-2130
-  # plot automatically identified sites?
-  plot_auto_identified_sites: default
-  # add these sites if they aren't automatically identified
-  add_sites: []
-  # exclude these sites even if not automatically identified
-  exclude_sites: []
-  # name of site-level color scheme in `site_color_schemes.csv` **or**
-  # color for all sites
-  site_color_scheme: subdomain
-  # make escape profiles colored by DMS bind / expr measurements?
-  color_by_dms: True
-  make_supp_data: True
-  analyze_natural_mutations: true
-
 AZ_cocktail:
   conditions:
     COV2-2196_400: COV2-2196
@@ -59,10 +41,24 @@ AZ_cocktail:
   add_sites: []
   exclude_sites: []
   site_color_scheme: subdomain
-  color_by_dms: False
+  color_by_dms: True
   make_supp_data: True
+  analyze_natural_mutations: True
+
+AZ_cocktail_singlent:
+  conditions:
+    COV2-2196_400: COV2-2196
+    COV2-2130_400: COV2-2130
+    2196+2130_400: COV2-2196 + COV2-2130
+  plot_auto_identified_sites: default
+  draw_line_plot: False
+  add_sites: []
+  exclude_sites: []
+  site_color_scheme: subdomain
+  color_by_dms: True
+  make_supp_data: False
   analyze_natural_mutations: false
-  
+
 AZ_cocktail_adjust_width:
   conditions:
     COV2-2196_400: COV2-2196
