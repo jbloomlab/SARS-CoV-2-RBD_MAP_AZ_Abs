@@ -68,7 +68,6 @@ print('Making supplementary data for the following condition sets:\n  ' + '\n  '
 ```
 
     Making supplementary data for the following condition sets:
-      2196_2130_forAZ
       AZ_cocktail
       AZ_cocktail_adjust_width
 
@@ -187,23 +186,12 @@ for metric_type, (set_name, condition_set) in itertools.product(['mutation', 'si
 ```
 
     
-    Plotting correlations of mutation escape for 2196_2130_forAZ
-
-
-
-    
-![png](make_supp_data_files/make_supp_data_16_1.png)
-    
-
-
-    Saving plot to results/supp_data/2196_2130_forAZ-mutation-corr.pdf
-    
     Plotting correlations of mutation escape for AZ_cocktail
 
 
 
     
-![png](make_supp_data_files/make_supp_data_16_3.png)
+![png](make_supp_data_files/make_supp_data_16_1.png)
     
 
 
@@ -214,29 +202,18 @@ for metric_type, (set_name, condition_set) in itertools.product(['mutation', 'si
 
 
     
-![png](make_supp_data_files/make_supp_data_16_5.png)
+![png](make_supp_data_files/make_supp_data_16_3.png)
     
 
 
     Saving plot to results/supp_data/AZ_cocktail_adjust_width-mutation-corr.pdf
-    
-    Plotting correlations of site escape for 2196_2130_forAZ
-
-
-
-    
-![png](make_supp_data_files/make_supp_data_16_7.png)
-    
-
-
-    Saving plot to results/supp_data/2196_2130_forAZ-site-corr.pdf
     
     Plotting correlations of site escape for AZ_cocktail
 
 
 
     
-![png](make_supp_data_files/make_supp_data_16_9.png)
+![png](make_supp_data_files/make_supp_data_16_5.png)
     
 
 
@@ -247,7 +224,7 @@ for metric_type, (set_name, condition_set) in itertools.product(['mutation', 'si
 
 
     
-![png](make_supp_data_files/make_supp_data_16_11.png)
+![png](make_supp_data_files/make_supp_data_16_7.png)
     
 
 
@@ -291,9 +268,6 @@ for set_name, condition_set in condition_sets.items():
     df.to_csv(csv_file, index=False, float_format='%.4g')
 ```
 
-    
-    Raw data for 2196_2130_forAZ:
-    Writing to results/supp_data/2196_2130_forAZ_raw_data.csv
     
     Raw data for AZ_cocktail:
     Writing to results/supp_data/AZ_cocktail_raw_data.csv
@@ -482,7 +456,6 @@ for set_name, condition_set in condition_sets.items():
         df.to_csv(csv_file, index=False, float_format='%.4g')
 ```
 
-    Writing `dms-view` input file for 2196_2130_forAZ mapped to PDB 6m0j to results/supp_data/2196_2130_forAZ_6m0j_dms-view_data.csv
     Writing `dms-view` input file for AZ_cocktail mapped to PDB 6m0j to results/supp_data/AZ_cocktail_6m0j_dms-view_data.csv
     Writing `dms-view` input file for AZ_cocktail_adjust_width mapped to PDB 6m0j to results/supp_data/AZ_cocktail_adjust_width_6m0j_dms-view_data.csv
 

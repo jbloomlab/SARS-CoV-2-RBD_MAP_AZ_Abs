@@ -125,7 +125,7 @@ for name, specs in escape_profiles_config.items():
 ```
 
     
-    Analyzing homolog escape for 2196_2130_forAZ, saving plot to results/homologs/2196_2130_forAZ_homolog_escape.pdf
+    Analyzing homolog escape for AZ_cocktail, saving plot to results/homologs/AZ_cocktail_homolog_escape.pdf
 
 
 
@@ -135,7 +135,7 @@ for name, specs in escape_profiles_config.items():
 
 
     
-    Analyzing homolog escape for AZ_cocktail, saving plot to results/homologs/AZ_cocktail_homolog_escape.pdf
+    Analyzing homolog escape for AZ_cocktail_singlent, saving plot to results/homologs/AZ_cocktail_singlent_homolog_escape.pdf
 
 
 

@@ -659,11 +659,11 @@ with multiprocessing.Pool(ncpus) as pool:
         
 ```
 
-    Drawing 5 profiles using 16 CPUs...
+    Drawing 7 profiles using 16 CPUs...
     
     Plotted profile 1 to:
-     results/escape_profiles/2196_2130_forAZ_stackedlogo.pdf
-     results/escape_profiles/2196_2130_forAZ_stackedlogo.png.
+     results/escape_profiles/AZ_cocktail_stackedlogo.pdf
+     results/escape_profiles/AZ_cocktail_stackedlogo.png.
 
 
 
@@ -674,8 +674,8 @@ with multiprocessing.Pool(ncpus) as pool:
 
     
     Plotted profile 2 to:
-     results/escape_profiles/2196_2130_forAZ_color_by_bind_stackedlogo.pdf
-     results/escape_profiles/2196_2130_forAZ_color_by_bind_stackedlogo.png.
+     results/escape_profiles/AZ_cocktail_color_by_bind_stackedlogo.pdf
+     results/escape_profiles/AZ_cocktail_color_by_bind_stackedlogo.png.
 
 
 
@@ -686,8 +686,8 @@ with multiprocessing.Pool(ncpus) as pool:
 
     
     Plotted profile 3 to:
-     results/escape_profiles/2196_2130_forAZ_color_by_expr_stackedlogo.pdf
-     results/escape_profiles/2196_2130_forAZ_color_by_expr_stackedlogo.png.
+     results/escape_profiles/AZ_cocktail_color_by_expr_stackedlogo.pdf
+     results/escape_profiles/AZ_cocktail_color_by_expr_stackedlogo.png.
 
 
 
@@ -698,8 +698,8 @@ with multiprocessing.Pool(ncpus) as pool:
 
     
     Plotted profile 4 to:
-     results/escape_profiles/AZ_cocktail_stackedlogo.pdf
-     results/escape_profiles/AZ_cocktail_stackedlogo.png.
+     results/escape_profiles/AZ_cocktail_singlent_stackedlogo.pdf
+     results/escape_profiles/AZ_cocktail_singlent_stackedlogo.png.
 
 
 
@@ -710,13 +710,37 @@ with multiprocessing.Pool(ncpus) as pool:
 
     
     Plotted profile 5 to:
+     results/escape_profiles/AZ_cocktail_singlent_color_by_bind_stackedlogo.pdf
+     results/escape_profiles/AZ_cocktail_singlent_color_by_bind_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_9.png)
+    
+
+
+    
+    Plotted profile 6 to:
+     results/escape_profiles/AZ_cocktail_singlent_color_by_expr_stackedlogo.pdf
+     results/escape_profiles/AZ_cocktail_singlent_color_by_expr_stackedlogo.png.
+
+
+
+    
+![png](escape_profiles_files/escape_profiles_26_11.png)
+    
+
+
+    
+    Plotted profile 7 to:
      results/escape_profiles/AZ_cocktail_adjust_width_stackedlogo.pdf
      results/escape_profiles/AZ_cocktail_adjust_width_stackedlogo.png.
 
 
 
     
-![png](escape_profiles_files/escape_profiles_26_9.png)
+![png](escape_profiles_files/escape_profiles_26_13.png)
     
 
 
