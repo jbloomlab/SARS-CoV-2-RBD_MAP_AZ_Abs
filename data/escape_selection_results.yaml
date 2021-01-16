@@ -10,10 +10,11 @@ Crowe_selections:
   min_size: 0.75  # smallest point size (e.g., unobserved mutations)
   max_size: 1  # point size proportional to n observations with this max
   size_scale: 0.25  # scale all point sizes by this much
+  label_fontsize: 10
   # colors, shapes, alphas for each category of mutation:
-  shapes: ['o', 'x', 'D']
-  colors: ['tan', 'gray', 'red']
-  alphas: [0.4, 0.4, 0.75]
+  shapes: ['o', 'x', 'D', '^']
+  colors: ['tan', 'gray', 'red', 'blue']
+  alphas: [0.4, 0.4, 0.75, 0.75]
   facet_scales: null  # free x-axis in faceting
   antibodies:
     COV2-2196_400:  # selection column in raw data
@@ -22,15 +23,21 @@ Crowe_selections:
       replicates_escape: 0
     COV2-2130_400:
       display_name: COV2-2130
-      replicates_total: 20
-      replicates_escape: 8
       mutations:
-        K444R: 6
-        K444E: 2
+        K444R: 1
+        K444E: 1
+        R346I: 1
       label_mutations:
         - K444R
         - K444E
+        - R346I
     2196+2130_400:
       display_name: COV2-2196 + COV2-2130
       replicates_total: 104
       replicates_escape: 0
+  custom_categories:
+    COV2-2130:
+      K444R: VSV-SARS-CoV-2-selected
+      K444E: VSV-SARS-CoV-2-selected
+      R346I: authenic SARS-CoV-2-selected
+  legend_position: 'right'

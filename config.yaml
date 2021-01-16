@@ -118,7 +118,7 @@ site_color_schemes: data/site_color_schemes.csv
 escape_profile_ymax:
   quantile: 0.5
   frac: 0.05
-  min_ymax: null
+  min_ymax: 19
 
 # multidimensional scaling configuration
 mds_config: data/mds_config.yaml
