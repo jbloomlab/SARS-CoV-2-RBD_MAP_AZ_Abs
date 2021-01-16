@@ -145,7 +145,7 @@ for name, specs in escape_profiles_config.items():
 
 
     
-    Analyzing homolog escape for AZ_cocktail_adjust_width, saving plot to results/homologs/AZ_cocktail_adjust_width_homolog_escape.pdf
+    Analyzing homolog escape for AZ_cocktail_singlent_grayred, saving plot to results/homologs/AZ_cocktail_singlent_grayred_homolog_escape.pdf
 
 
 

@@ -232,7 +232,7 @@ display(HTML(selection_df.to_html(index=False)))
       <td>444</td>
       <td>K</td>
       <td>R</td>
-      <td>6</td>
+      <td>1</td>
       <td>K444R</td>
     </tr>
     <tr>
@@ -241,8 +241,17 @@ display(HTML(selection_df.to_html(index=False)))
       <td>444</td>
       <td>K</td>
       <td>E</td>
-      <td>2</td>
+      <td>1</td>
       <td>K444E</td>
+    </tr>
+    <tr>
+      <td>Crowe_selections</td>
+      <td>COV2-2130_400</td>
+      <td>346</td>
+      <td>R</td>
+      <td>I</td>
+      <td>1</td>
+      <td>R346I</td>
     </tr>
   </tbody>
 </table>
