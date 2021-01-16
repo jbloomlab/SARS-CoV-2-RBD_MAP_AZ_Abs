@@ -69,7 +69,6 @@ print('Making supplementary data for the following condition sets:\n  ' + '\n  '
 
     Making supplementary data for the following condition sets:
       AZ_cocktail
-      AZ_cocktail_adjust_width
 
 
 Read the escape fractions
@@ -197,7 +196,7 @@ for metric_type, (set_name, condition_set) in itertools.product(['mutation', 'si
 
     Saving plot to results/supp_data/AZ_cocktail-mutation-corr.pdf
     
-    Plotting correlations of mutation escape for AZ_cocktail_adjust_width
+    Plotting correlations of site escape for AZ_cocktail
 
 
 
@@ -206,29 +205,7 @@ for metric_type, (set_name, condition_set) in itertools.product(['mutation', 'si
     
 
 
-    Saving plot to results/supp_data/AZ_cocktail_adjust_width-mutation-corr.pdf
-    
-    Plotting correlations of site escape for AZ_cocktail
-
-
-
-    
-![png](make_supp_data_files/make_supp_data_16_5.png)
-    
-
-
     Saving plot to results/supp_data/AZ_cocktail-site-corr.pdf
-    
-    Plotting correlations of site escape for AZ_cocktail_adjust_width
-
-
-
-    
-![png](make_supp_data_files/make_supp_data_16_7.png)
-    
-
-
-    Saving plot to results/supp_data/AZ_cocktail_adjust_width-site-corr.pdf
 
 
 ## Raw data files
@@ -271,9 +248,6 @@ for set_name, condition_set in condition_sets.items():
     
     Raw data for AZ_cocktail:
     Writing to results/supp_data/AZ_cocktail_raw_data.csv
-    
-    Raw data for AZ_cocktail_adjust_width:
-    Writing to results/supp_data/AZ_cocktail_adjust_width_raw_data.csv
 
 
 ## Data for `dms-view`:
@@ -457,7 +431,6 @@ for set_name, condition_set in condition_sets.items():
 ```
 
     Writing `dms-view` input file for AZ_cocktail mapped to PDB 6m0j to results/supp_data/AZ_cocktail_6m0j_dms-view_data.csv
-    Writing `dms-view` input file for AZ_cocktail_adjust_width mapped to PDB 6m0j to results/supp_data/AZ_cocktail_adjust_width_6m0j_dms-view_data.csv
 
 
 

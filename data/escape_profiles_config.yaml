@@ -44,6 +44,10 @@ AZ_cocktail:
   color_by_dms: True
   make_supp_data: True
   analyze_natural_mutations: True
+  escape_profile_ymax:
+    quantile: 0.5
+    frac: 0.05
+    min_ymax: 19
 
 AZ_cocktail_singlent:
   conditions:
@@ -58,20 +62,31 @@ AZ_cocktail_singlent:
   color_by_dms: True
   make_supp_data: False
   analyze_natural_mutations: false
+  single_nt_only: ./data/Whelan-VSV-SARS-CoV-2-Spike.gb
+  escape_profile_ymax:
+    quantile: 0.5
+    frac: 0.05
+    min_ymax: 6
 
-AZ_cocktail_adjust_width:
+AZ_cocktail_singlent_grayred:
   conditions:
     COV2-2196_400: COV2-2196
     COV2-2130_400: COV2-2130
     2196+2130_400: COV2-2196 + COV2-2130
   plot_auto_identified_sites: default
+  draw_line_plot: False
   add_sites: []
   exclude_sites: []
-  site_color_scheme: subdomain
+  site_color_scheme: gray
+  mutation_colors:
+    R444: red
+    E444: red
+    I346: blue
   color_by_dms: False
-  make_supp_data: True
+  make_supp_data: False
   analyze_natural_mutations: false
-  dmslogo_draw_logo_kwargs:
-    widthscale: 2
-  dmslogo_draw_line_kwargs:
-    widthscale: 0.5
+  single_nt_only: ./data/Whelan-VSV-SARS-CoV-2-Spike.gb
+  escape_profile_ymax:
+    quantile: 0.5
+    frac: 0.05
+    min_ymax: 6

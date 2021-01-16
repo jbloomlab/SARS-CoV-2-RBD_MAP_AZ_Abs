@@ -44,7 +44,7 @@ print(f"Using `dmslogo` version {dmslogo.__version__}")
 print(f"Using `dms_variants` version {dms_variants.__version__}")
 ```
 
-    Using `dmslogo` version 0.6.1
+    Using `dmslogo` version 0.6.2
     Using `dms_variants` version 0.8.5
 
 
@@ -734,8 +734,8 @@ with multiprocessing.Pool(ncpus) as pool:
 
     
     Plotted profile 7 to:
-     results/escape_profiles/AZ_cocktail_adjust_width_stackedlogo.pdf
-     results/escape_profiles/AZ_cocktail_adjust_width_stackedlogo.png.
+     results/escape_profiles/AZ_cocktail_singlent_grayred_stackedlogo.pdf
+     results/escape_profiles/AZ_cocktail_singlent_grayred_stackedlogo.png.
 
 
 
