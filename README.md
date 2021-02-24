@@ -1,7 +1,7 @@
 # Mutational antigenic profiling of SARS-CoV-2 RBD against COV2-2196, COV2-2130, and antibody mixture
 
 Experiments and analysis by Allie Greaney, Tyler Starr, and [Jesse Bloom](https://research.fhcrc.org/bloom/en.html), in support of a structural study by the [Crowe Lab](https://www.vumc.org/crowe-lab/welcome).
-These experiments are described in this pre-print (**add link once posted**).
+These experiments are described in [this pre-print](https://doi.org/10.1101/2021.01.27.428529).
 
 ## Summary of workflow and results
 For a summary of the workflow and links to key results files, [click here](results/summary/summary.md).
