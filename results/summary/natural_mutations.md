@@ -565,8 +565,16 @@ for name, specs in escape_profiles_config.items():
   </thead>
   <tbody>
     <tr>
+      <td>COV2-2196 + COV2-2130</td>
+      <td>sensitive_max_mut</td>
+      <td>484</td>
+      <td>E</td>
+      <td>337</td>
+      <td>E484K (279), E484Q (42), E484A (8), E484D (3), E484R (2), E484G (2), E484V (1)</td>
+    </tr>
+    <tr>
       <td>COV2-2130</td>
-      <td>default</td>
+      <td>sensitive_max_mut</td>
       <td>494</td>
       <td>S</td>
       <td>166</td>
@@ -574,7 +582,7 @@ for name, specs in escape_profiles_config.items():
     </tr>
     <tr>
       <td>COV2-2130</td>
-      <td>default</td>
+      <td>sensitive_max_mut</td>
       <td>446</td>
       <td>G</td>
       <td>64</td>
@@ -582,7 +590,7 @@ for name, specs in escape_profiles_config.items():
     </tr>
     <tr>
       <td>COV2-2196</td>
-      <td>default</td>
+      <td>sensitive_max_mut</td>
       <td>476</td>
       <td>G</td>
       <td>46</td>
@@ -590,7 +598,7 @@ for name, specs in escape_profiles_config.items():
     </tr>
     <tr>
       <td>COV2-2196 + COV2-2130</td>
-      <td>default</td>
+      <td>sensitive_max_mut</td>
       <td>476</td>
       <td>G</td>
       <td>46</td>
@@ -598,23 +606,23 @@ for name, specs in escape_profiles_config.items():
     </tr>
     <tr>
       <td>COV2-2196 + COV2-2130</td>
-      <td>default</td>
-      <td>486</td>
-      <td>F</td>
-      <td>35</td>
-      <td>F486L (34), F486I (1)</td>
+      <td>sensitive_max_mut</td>
+      <td>485</td>
+      <td>G</td>
+      <td>37</td>
+      <td>G485R (33), G485S (2), G485V (1), G485T (1)</td>
     </tr>
     <tr>
       <td>COV2-2196</td>
-      <td>default</td>
-      <td>486</td>
-      <td>F</td>
-      <td>35</td>
-      <td>F486L (34), F486I (1)</td>
+      <td>sensitive_max_mut</td>
+      <td>485</td>
+      <td>G</td>
+      <td>37</td>
+      <td>G485R (33), G485S (2), G485T (1), G485V (1)</td>
     </tr>
     <tr>
-      <td>COV2-2130</td>
-      <td>default</td>
+      <td>COV2-2196 + COV2-2130</td>
+      <td>sensitive_max_mut</td>
       <td>444</td>
       <td>K</td>
       <td>35</td>
@@ -622,27 +630,19 @@ for name, specs in escape_profiles_config.items():
     </tr>
     <tr>
       <td>COV2-2130</td>
-      <td>default</td>
+      <td>sensitive_max_mut</td>
+      <td>444</td>
+      <td>K</td>
+      <td>35</td>
+      <td>K444R (28), K444N (7)</td>
+    </tr>
+    <tr>
+      <td>COV2-2130</td>
+      <td>sensitive_max_mut</td>
       <td>346</td>
       <td>R</td>
       <td>35</td>
       <td>R346K (21), R346S (9), R346T (3), R346I (2)</td>
-    </tr>
-    <tr>
-      <td>COV2-2196</td>
-      <td>default</td>
-      <td>475</td>
-      <td>A</td>
-      <td>34</td>
-      <td>A475V (33), A475S (1)</td>
-    </tr>
-    <tr>
-      <td>COV2-2130</td>
-      <td>default</td>
-      <td>445</td>
-      <td>V</td>
-      <td>17</td>
-      <td>V445A (11), V445I (3), V445F (3)</td>
     </tr>
   </tbody>
 </table>

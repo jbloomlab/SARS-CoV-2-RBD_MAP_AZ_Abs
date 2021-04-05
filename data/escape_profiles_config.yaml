@@ -37,7 +37,7 @@ AZ_cocktail:
     COV2-2196_400: COV2-2196
     COV2-2130_400: COV2-2130
     2196+2130_400: COV2-2196 + COV2-2130
-  plot_auto_identified_sites: default
+  plot_auto_identified_sites: sensitive_max_mut
   add_sites: []
   exclude_sites: []
   site_color_scheme: subdomain
@@ -54,7 +54,7 @@ AZ_cocktail_singlent:
     COV2-2196_400: COV2-2196
     COV2-2130_400: COV2-2130
     2196+2130_400: COV2-2196 + COV2-2130
-  plot_auto_identified_sites: default
+  plot_auto_identified_sites: sensitive_max_mut
   draw_line_plot: False
   add_sites: []
   exclude_sites: []
@@ -73,7 +73,7 @@ AZ_cocktail_singlent_grayred:
     COV2-2196_400: COV2-2196
     COV2-2130_400: COV2-2130
     2196+2130_400: COV2-2196 + COV2-2130
-  plot_auto_identified_sites: default
+  plot_auto_identified_sites: sensitive_max_mut
   draw_line_plot: False
   add_sites: []
   exclude_sites: []
