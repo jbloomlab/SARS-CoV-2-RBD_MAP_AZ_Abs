@@ -47,7 +47,7 @@ AZ_cocktail:
   escape_profile_ymax:
     quantile: 0.5
     frac: 0.05
-    min_ymax: 19
+    min_ymax: 20
 
 AZ_cocktail_singlent:
   conditions:
