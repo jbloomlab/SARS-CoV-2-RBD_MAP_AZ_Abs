@@ -3,6 +3,12 @@
 Experiments and analysis by Allie Greaney, Tyler Starr, and [Jesse Bloom](https://research.fhcrc.org/bloom/en.html), in support of a structural study by the [Crowe Lab](https://www.vumc.org/crowe-lab/welcome).
 These experiments are described in [this pre-print](https://doi.org/10.1101/2021.01.27.428529).
 
+Note that these antibodies have multiple names:
+* COV2-2196 is also known as **AZD8895**
+* COV2-2130 is also known as **AZD1061**
+* The COV2-2196 + COV2-2130 cocktail is also known as **AZD7442**
+
+
 ## Summary of workflow and results
 For a summary of the workflow and links to key results files, [click here](results/summary/summary.md).
 Reading this summary is the best way to understand the analysis.
