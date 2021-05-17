@@ -34,9 +34,9 @@
 
 AZ_cocktail:
   conditions:
-    COV2-2196_400: COV2-2196
-    COV2-2130_400: COV2-2130
-    2196+2130_400: COV2-2196 + COV2-2130
+    COV2-2196_400: AZD8895
+    COV2-2130_400: AZD1061
+    2196+2130_400: AZD7442 (AZD8895 + AZD1061)
   plot_auto_identified_sites: sensitive_max_mut
   add_sites: []
   exclude_sites: []
@@ -51,9 +51,9 @@ AZ_cocktail:
 
 AZ_cocktail_singlent:
   conditions:
-    COV2-2196_400: COV2-2196
-    COV2-2130_400: COV2-2130
-    2196+2130_400: COV2-2196 + COV2-2130
+    COV2-2196_400: AZD8895
+    COV2-2130_400: AZD1061
+    2196+2130_400: AZD7442 (AZD8895 + AZD1061)
   plot_auto_identified_sites: sensitive_max_mut
   draw_line_plot: False
   add_sites: []
@@ -70,9 +70,9 @@ AZ_cocktail_singlent:
 
 AZ_cocktail_singlent_grayred:
   conditions:
-    COV2-2196_400: COV2-2196
-    COV2-2130_400: COV2-2130
-    2196+2130_400: COV2-2196 + COV2-2130
+    COV2-2196_400: AZD8895
+    COV2-2130_400: AZD1061
+    2196+2130_400: AZD7442 (AZD8895 + AZD1061)
   plot_auto_identified_sites: sensitive_max_mut
   draw_line_plot: False
   add_sites: []

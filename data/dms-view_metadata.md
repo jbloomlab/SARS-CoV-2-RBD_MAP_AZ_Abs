@@ -1,6 +1,6 @@
 ## Genetic and structural basis for recognition of SARS-CoV-2 spike protein by a combination of two potently neutralizing antibodies
 
-For experimental background, see our paper **[here [INSERT LINK]]()**.
+For experimental background, see the preprint **[here](https://www.biorxiv.org/content/10.1101/2021.01.27.428529v1)**.
 
 ### What data are shown here?
 We are showing mutations to the SARS-CoV-2 RBD that escape antibody binding as measured using mutational antigenic profiling. Raw data is available [here](https://github.com/jbloomlab/SARS-CoV-2-RBD_MAP_AZ_Abs/blob/main/results/supp_data/AZ_cocktail_raw_data.csv).
@@ -18,7 +18,7 @@ At the mutation level, the height of each letter is proportional to the extent t
 You can color the logo plot letters in four ways:
 
  - *escape color ACE2 bind* means color letters according to how that mutation affects ACE2 binding as measured in our prior deep mutational scanning ([Starr et al. (2020)](https://doi.org/10.1016/j.cell.2020.08.012), with yellow meaning highly deleterious, and brown meaning neutral or beneficial for ACE2 binding. See Figure 1 in the preprint linked above for color scale.
- 
+
  - *escape color RBD expr* means color letters according to how that mutation affects RBD expression as measured in [Starr et al. (2020)](https://doi.org/10.1016/j.cell.2020.08.012).
 
  - *escape color gray* means color all letters gray.

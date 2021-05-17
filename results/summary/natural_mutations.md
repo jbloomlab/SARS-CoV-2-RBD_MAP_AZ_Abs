@@ -565,7 +565,7 @@ for name, specs in escape_profiles_config.items():
   </thead>
   <tbody>
     <tr>
-      <td>COV2-2196 + COV2-2130</td>
+      <td>AZD7442 (AZD8895 + AZD1061)</td>
       <td>sensitive_max_mut</td>
       <td>484</td>
       <td>E</td>
@@ -573,7 +573,7 @@ for name, specs in escape_profiles_config.items():
       <td>E484K (279), E484Q (42), E484A (8), E484D (3), E484R (2), E484G (2), E484V (1)</td>
     </tr>
     <tr>
-      <td>COV2-2130</td>
+      <td>AZD1061</td>
       <td>sensitive_max_mut</td>
       <td>494</td>
       <td>S</td>
@@ -581,7 +581,7 @@ for name, specs in escape_profiles_config.items():
       <td>S494P (151), S494L (10), S494A (5)</td>
     </tr>
     <tr>
-      <td>COV2-2130</td>
+      <td>AZD1061</td>
       <td>sensitive_max_mut</td>
       <td>446</td>
       <td>G</td>
@@ -589,7 +589,7 @@ for name, specs in escape_profiles_config.items():
       <td>G446V (53), G446S (8), G446A (2), G446D (1)</td>
     </tr>
     <tr>
-      <td>COV2-2196</td>
+      <td>AZD8895</td>
       <td>sensitive_max_mut</td>
       <td>476</td>
       <td>G</td>
@@ -597,7 +597,7 @@ for name, specs in escape_profiles_config.items():
       <td>G476S (42), G476A (3), G476F (1)</td>
     </tr>
     <tr>
-      <td>COV2-2196 + COV2-2130</td>
+      <td>AZD7442 (AZD8895 + AZD1061)</td>
       <td>sensitive_max_mut</td>
       <td>476</td>
       <td>G</td>
@@ -605,7 +605,7 @@ for name, specs in escape_profiles_config.items():
       <td>G476S (42), G476A (3), G476F (1)</td>
     </tr>
     <tr>
-      <td>COV2-2196 + COV2-2130</td>
+      <td>AZD7442 (AZD8895 + AZD1061)</td>
       <td>sensitive_max_mut</td>
       <td>485</td>
       <td>G</td>
@@ -613,7 +613,7 @@ for name, specs in escape_profiles_config.items():
       <td>G485R (33), G485S (2), G485V (1), G485T (1)</td>
     </tr>
     <tr>
-      <td>COV2-2196</td>
+      <td>AZD8895</td>
       <td>sensitive_max_mut</td>
       <td>485</td>
       <td>G</td>
@@ -621,7 +621,7 @@ for name, specs in escape_profiles_config.items():
       <td>G485R (33), G485S (2), G485T (1), G485V (1)</td>
     </tr>
     <tr>
-      <td>COV2-2196 + COV2-2130</td>
+      <td>AZD7442 (AZD8895 + AZD1061)</td>
       <td>sensitive_max_mut</td>
       <td>444</td>
       <td>K</td>
@@ -629,7 +629,7 @@ for name, specs in escape_profiles_config.items():
       <td>K444R (28), K444N (7)</td>
     </tr>
     <tr>
-      <td>COV2-2130</td>
+      <td>AZD1061</td>
       <td>sensitive_max_mut</td>
       <td>444</td>
       <td>K</td>
@@ -637,7 +637,7 @@ for name, specs in escape_profiles_config.items():
       <td>K444R (28), K444N (7)</td>
     </tr>
     <tr>
-      <td>COV2-2130</td>
+      <td>AZD1061</td>
       <td>sensitive_max_mut</td>
       <td>346</td>
       <td>R</td>
